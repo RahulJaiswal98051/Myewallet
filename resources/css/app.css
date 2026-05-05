@@ -1,0 +1,197 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:root {
+    color-scheme: dark;
+    --brand-primary: #0d4ef9;
+    --brand-secondary: #00c6ff;
+    --brand-accent: #0cbf9f;
+    --text-color: #0b255f;
+    --surface-bg: #f6fbff;
+}
+
+body {
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    color: var(--text-color);
+    background: var(--surface-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Red Hat Display', ui-sans-serif, system-ui, sans-serif;
+    color: #071c35;
+}
+
+.rts-banner-area-two .title {
+    font-size: clamp(3rem, 4vw, 5rem);
+    line-height: 1.04;
+}
+
+.rts-btn.btn-primary {
+    background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+    border: none;
+    color: #ffffff;
+}
+
+.rts-btn.btn-primary.btn-white {
+    background: #ffffff;
+    color: var(--text-color);
+    border: 1px solid rgba(13, 78, 249, 0.16);
+}
+
+.rts-service-area,
+.business-goal-area-2,
+.rts-counter-up-area,
+.rts-gallery-area,
+.rts-trusted-client,
+.rts-client-review-area,
+.appoinment-area-start {
+    background: #ffffff;
+}
+
+/* Modern Contact Us Section */
+.modern-contact-wrapper {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
+    border-radius: 1.5rem;
+}
+
+.contact-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.contact-card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(13, 78, 249, 0.15) !important;
+}
+
+.contact-form-card {
+    transition: all 0.3s ease;
+}
+
+.contact-form-card:focus-within {
+    box-shadow: 0 20px 50px rgba(13, 78, 249, 0.15) !important;
+}
+
+.form-control {
+    border: 1px solid #e0e6f0 !important;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0d4ef9 !important;
+    box-shadow: 0 0 0 0.2rem rgba(13, 78, 249, 0.15) !important;
+}
+
+.form-control-lg::placeholder {
+    color: #a0aac1 !important;
+    font-size: 0.95rem;
+}
+
+.btn-brand-primary {
+    background: linear-gradient(90deg, #0d4ef9, #00c6ff) !important;
+    border: none !important;
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(13, 78, 249, 0.2);
+}
+
+.btn-brand-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(13, 78, 249, 0.3) !important;
+    background: linear-gradient(90deg, #0d4ef9, #00c6ff) !important;
+}
+
+.btn-lg {
+    padding: 0.75rem 2rem !important;
+    font-size: 1rem !important;
+}
+
+/* Brand Color Utilities */
+.brand-primary {
+    color: #0d4ef9 !important;
+}
+
+.brand-secondary {
+    color: #00c6ff !important;
+}
+
+.brand-accent {
+    color: #0cbf9f !important;
+}
+
+.bg-brand-primary {
+    background-color: #0d4ef9 !important;
+}
+
+.bg-brand-primary-light {
+    background-color: rgba(13, 78, 249, 0.1) !important;
+}
+
+.bg-brand-secondary {
+    background-color: #00c6ff !important;
+}
+
+.bg-brand-accent {
+    background-color: #0cbf9f !important;
+}
+
+.border-brand-primary {
+    border-color: rgba(13, 78, 249, 0.25) !important;
+}
+
+.border-brand-primary:focus {
+    border-color: #0d4ef9 !important;
+}
+
+/* Quick Contact Card Styles */
+.quick-contact-card {
+    border-left: 4px solid #0d4ef9 !important;
+}
+
+.quick-contact-card:hover {
+    border-left-color: #00c6ff !important;
+}
+
+/* Office Card Styles */
+.office-card-modern {
+    transition: all 0.3s ease;
+    border-top: 3px solid transparent;
+}
+
+.office-card-modern:hover {
+    border-top-color: #0d4ef9;
+    transform: translateY(-6px);
+}
+
+/* Form Label Styling */
+.form-label {
+    color: #0b255f !important;
+    letter-spacing: 0.3px;
+    margin-bottom: 0.75rem !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .modern-contact-wrapper {
+        padding: 2rem 0 !important;
+    }
+    
+    .contact-card-hover:hover {
+        transform: translateY(-4px);
+    }
+}
