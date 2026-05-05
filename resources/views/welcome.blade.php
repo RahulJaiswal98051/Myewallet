@@ -8,7 +8,8 @@
                 <div class="swiper-slide">
                     <!-- rts banner area start -->
                     <div class="rts-banner-area-two rts-section-gap bg_image">
-                        {{-- <img src="assets/images/bg/bg-image-1.jpg" alt="MyEwallet Global Payments" class="hero-bg-image"> --}}
+                        {{-- <img src="assets/images/bg/bg-image-1.jpg" alt="MyEwallet Global Payments"
+                            class="hero-bg-image"> --}}
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -19,7 +20,8 @@
                                             Move money across 150+ countries with real exchange rates, zero hidden fees,
                                             and AI-powered fraud protection — all from one wallet.
                                         </p>
-                                        <a href="{{ route('contact') }}" class="rts-btn btn-primary btn-white">Open Free Account</a>
+                                        <a href="{{ route('contact') }}" class="rts-btn btn-primary btn-white">Open Free
+                                            Account</a>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +46,8 @@
                 <div class="swiper-slide">
                     <!-- rts banner area start -->
                     <div class="rts-banner-area-two two rts-section-gap bg_image">
-                        {{-- <img src="assets/images/bg/bg-image-2.jpg" alt="MyEwallet Multi-Currency Accounts" class="hero-bg-image"> --}}
+                        {{-- <img src="assets/images/bg/bg-image-2.jpg" alt="MyEwallet Multi-Currency Accounts"
+                            class="hero-bg-image"> --}}
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -55,7 +58,8 @@
                                             Multi-currency accounts, batch payroll, virtual cards, and SWIFT transfers —
                                             everything your business needs to operate internationally.
                                         </p>
-                                        <a href="{{ route('business-accounts') }}" class="rts-btn btn-primary btn-white">Explore Business Accounts</a>
+                                        <a href="{{ route('business-accounts') }}"
+                                            class="rts-btn btn-primary btn-white">Explore Business Accounts</a>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +84,8 @@
                 <div class="swiper-slide">
                     <!-- rts banner area start -->
                     <div class="rts-banner-area-two three rts-section-gap bg_image">
-                        {{-- <img src="assets/images/bg/bg-image-3.jpg" alt="MyEwallet AI Security" class="hero-bg-image"> --}}
+                        {{-- <img src="assets/images/bg/bg-image-3.jpg" alt="MyEwallet AI Security" class="hero-bg-image">
+                        --}}
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -91,7 +96,8 @@
                                             Operating under financial regulations in the UAE, Hong Kong, and USA —
                                             MyEwallet keeps your funds protected and your transactions compliant.
                                         </p>
-                                        <a href="{{ route('security') }}" class="rts-btn btn-primary btn-white">Learn About Security</a>
+                                        <a href="{{ route('security') }}" class="rts-btn btn-primary btn-white">Learn About
+                                            Security</a>
                                     </div>
                                 </div>
                             </div>
@@ -183,117 +189,129 @@
                     </div>
                 </div>
                 <div class="container-1680 mt--40">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="case-studies-wrapper-main-5">
-                        <div class="swiper mySwiper-case-studies-5">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="single-case-studies-four">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/project/business-accounts.png" alt="project" style="width: 350px; height: auto;">
-                                        </a>
-                                        <div class="inner">
-                                            <a href="#">
-                                                <h3 class="title">Business Accounts</h3>
-                                                <span>Open Multi-currency business account and manage your global finances from a single unified Platform </span>
-                                            </a>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="case-studies-wrapper-main-5">
+                                <div class="swiper mySwiper-case-studies-5">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="single-case-studies-four">
+                                                <a href="#" class="thumbnail">
+                                                    <img src="assets/images/project/business-accounts.png" alt="project"
+                                                        style="width: 350px; height: auto;">
+                                                </a>
+                                                <div class="inner">
+                                                    <a href="#">
+                                                        <h3 class="title">Business Accounts</h3>
+                                                        <span>Open Multi-currency business account and manage your global
+                                                            finances from a single unified Platform </span>
+                                                    </a>
+                                                </div>
+                                                {{-- <div class="eye">
+                                                    <img src="assets/images/project/eye.svg" alt="project">
+                                                </div> --}}
+                                            </div>
                                         </div>
-                                        {{-- <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
-                                        </div> --}}
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-case-studies-four">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/project/card-issuing.png" alt="project" style="width: 350px; height: auto;">
-                                        </a>
-                                        <div class="inner">
-                                            <a href="#">
-                                                <h3 class="title">Card Issuing</h3>
-                                                <span>Lunch branded physical and virtual cards at scale with custom controls</span>
-                                            </a>
+                                        <div class="swiper-slide">
+                                            <div class="single-case-studies-four">
+                                                <a href="#" class="thumbnail">
+                                                    <img src="assets/images/project/card-issuing.png" alt="project"
+                                                        style="width: 350px; height: auto;">
+                                                </a>
+                                                <div class="inner">
+                                                    <a href="#">
+                                                        <h3 class="title">Card Issuing</h3>
+                                                        <span>Lunch branded physical and virtual cards at scale with custom
+                                                            controls</span>
+                                                    </a>
+                                                </div>
+                                                {{-- <div class="eye">
+                                                    <img src="assets/images/project/eye.svg" alt="project">
+                                                </div> --}}
+                                            </div>
                                         </div>
-                                        {{-- <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
-                                        </div> --}}
-                                    </div>
-                                </div>
-                                
-                                <div class="swiper-slide">
-                                    <div class="single-case-studies-four">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/project/infinity-cards.png" alt="project" style="width: 350px; height: auto;">
-                                        </a>
-                                        <div class="inner">
-                                            <a href="#">
-                                                <h3 class="title">Infinity Cards</h3>
-                                                <span>Corporate and employee cards with comprehensive spending controls and oversight</span>
-                                            </a>
+
+                                        <div class="swiper-slide">
+                                            <div class="single-case-studies-four">
+                                                <a href="#" class="thumbnail">
+                                                    <img src="assets/images/project/infinity-cards.png" alt="project"
+                                                        style="width: 350px; height: auto;">
+                                                </a>
+                                                <div class="inner">
+                                                    <a href="#">
+                                                        <h3 class="title">Infinity Cards</h3>
+                                                        <span>Corporate and employee cards with comprehensive spending
+                                                            controls and oversight</span>
+                                                    </a>
+                                                </div>
+                                                {{-- <div class="eye">
+                                                    <img src="assets/images/project/eye.svg" alt="project">
+                                                </div> --}}
+                                            </div>
                                         </div>
-                                        {{-- <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
-                                        </div> --}}
-                                    </div>
-                                </div>
-                                  <div class="swiper-slide">
-                                    <div class="single-case-studies-four">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/project/crypto-card.png" alt="project" style="width: 350px; height: 620px;">
-                                        </a>
-                                        <div class="inner">
-                                            <a href="#">
-                                                <h3 class="title">Myewallet Crypto Card</h3>
-                                                <span>Spend your crypto anywhere in the world with our global crypto card and solution</span>
-                                            </a>
+                                        <div class="swiper-slide">
+                                            <div class="single-case-studies-four">
+                                                <a href="#" class="thumbnail">
+                                                    <img src="assets/images/project/crypto-card.png" alt="project"
+                                                        style="width: 350px; height: 620px;">
+                                                </a>
+                                                <div class="inner">
+                                                    <a href="#">
+                                                        <h3 class="title">Myewallet Crypto Card</h3>
+                                                        <span>Spend your crypto anywhere in the world with our global crypto
+                                                            card and solution</span>
+                                                    </a>
+                                                </div>
+                                                {{-- <div class="eye">
+                                                    <img src="assets/images/project/eye.svg" alt="project">
+                                                </div> --}}
+                                            </div>
                                         </div>
-                                        {{-- <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
-                                        </div> --}}
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-case-studies-four">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/project/cryptoconnect.png" alt="project" style="width: 350px; height: auto;">
-                                        </a>
-                                        <div class="inner">
-                                            <a href="#">
-                                                <h3 class="title">CryptoConnect</h3>
-                                                <span>Seamless bridge between digital assets and traditional flat for your business operations</span>
-                                            </a>
+                                        <div class="swiper-slide">
+                                            <div class="single-case-studies-four">
+                                                <a href="#" class="thumbnail">
+                                                    <img src="assets/images/project/cryptoconnect.png" alt="project"
+                                                        style="width: 350px; height: auto;">
+                                                </a>
+                                                <div class="inner">
+                                                    <a href="#">
+                                                        <h3 class="title">CryptoConnect</h3>
+                                                        <span>Seamless bridge between digital assets and traditional flat
+                                                            for your business operations</span>
+                                                    </a>
+                                                </div>
+                                                {{-- <div class="eye">
+                                                    <img src="assets/images/project/eye.svg" alt="project">
+                                                </div> --}}
+                                            </div>
                                         </div>
-                                        {{-- <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
-                                        </div> --}}
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="single-case-studies-four">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/project/yield-treasury.png" alt="project" style="width: 350px; height: auto;">
-                                        </a>
-                                        <div class="inner">
-                                            <a href="#">
-                                                <h3 class="title">Yield Treasury</h3>
-                                                <span>Optmize corporate balances with yield-generating strategies while respecting liquidity needs</span>
-                                            </a>
+                                        <div class="swiper-slide">
+                                            <div class="single-case-studies-four">
+                                                <a href="#" class="thumbnail">
+                                                    <img src="assets/images/project/yield-treasury.png" alt="project"
+                                                        style="width: 350px; height: auto;">
+                                                </a>
+                                                <div class="inner">
+                                                    <a href="#">
+                                                        <h3 class="title">Yield Treasury</h3>
+                                                        <span>Optmize corporate balances with yield-generating strategies
+                                                            while respecting liquidity needs</span>
+                                                    </a>
+                                                </div>
+                                                {{-- <div class="eye">
+                                                    <img src="assets/images/project/eye.svg" alt="project">
+                                                </div> --}}
+                                            </div>
                                         </div>
-                                        {{-- <div class="eye">
-                                            <img src="assets/images/project/eye.svg" alt="project">
-                                        </div> --}}
                                     </div>
+                                    <div class="swiper-pagination-fraction"></div>
+                                    <div class="swiper-button-next"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
+                                    <div class="swiper-button-prev"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination-fraction"></div>
-                            <div class="swiper-button-next"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
-                            <div class="swiper-button-prev"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
             </div>
         </div>
         <div class="shape-area">
@@ -354,7 +372,8 @@
                                                     <div class="information">
                                                         <h5 class="title">Business Accounts</h5>
                                                         <p class="disc">
-                                                            Multi-currency business banking with batch payroll, team spending
+                                                            Multi-currency business banking with batch payroll, team
+                                                            spending
                                                             controls, and seamless international transfers.
                                                         </p>
                                                         <a href="{{ route('business-accounts') }}" class="arrow-right">
@@ -428,7 +447,8 @@
                                         Join over 1 million users moving money <br>
                                         smarter with MyEwallet.
                                     </h3>
-                                    <a href="{{ route('register') }}" class="rts-btn btn-primary btn-white">Open Your Account Today</a>
+                                    <a href="{{ route('register') }}" class="rts-btn btn-primary btn-white">Open Your
+                                        Account Today</a>
                                 </div>
                             </div>
                         </div>
@@ -457,7 +477,8 @@
                             <div class="information">
                                 <h4 class="title">Unified Platform</h4>
                                 <p class="disc">
-                                    Everything you need in one place — business accounts, card issuing, payments, crypto infrastructure, and treasury solutions.
+                                    Everything you need in one place — business accounts, card issuing, payments, crypto
+                                    infrastructure, and treasury solutions.
 
                                 </p>
                             </div>
@@ -469,7 +490,8 @@
                             <div class="information">
                                 <h4 class="title">API-First Integration</h4>
                                 <p class="disc">
-                                    Built for developers who prefer APIs over paperwork. Integrate financial features seamlessly into your product.
+                                    Built for developers who prefer APIs over paperwork. Integrate financial features
+                                    seamlessly into your product.
 
                                 </p>
                             </div>
@@ -481,7 +503,8 @@
                             <div class="information">
                                 <h4 class="title">Global Operations</h4>
                                 <p class="disc">
-                                    Operate across borders with multi-currency accounts, international transfers, and global card acceptance — all in one platform.
+                                    Operate across borders with multi-currency accounts, international transfers, and global
+                                    card acceptance — all in one platform.
 
                                 </p>
                             </div>
@@ -493,13 +516,13 @@
                             <div class="information">
                                 <h4 class="title">Enterprise Security</h4>
                                 <p class="disc">
-                                   Licensed in UAE, Hong Kong, and USA with enterprise-grade security, compliance, and operational controls built-in.
+                                    Licensed in UAE, Hong Kong, and USA with enterprise-grade security, compliance, and
+                                    operational controls built-in.
 
                                 </p>
                             </div>
                         </div>
-                        <div class="button-wrapper mt--40" data-animation="fadeInUp" data-delay="0.4"
-                            data-duration="1.2">
+                        <div class="button-wrapper mt--40" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
                             <a href="{{ route('contact') }}" class="rts-btn btn-primary">Contact Us</a>
                         </div>
                     </div>
@@ -652,7 +675,7 @@
         </div>
     </div>
     <!-- start gallery section -->
-     
+
     <!-- rts trusted client area start -->
 
     <!-- rts trusted client area end -->
@@ -667,15 +690,15 @@
                         <span class="pre">Our Story</span>
                         <h2 class="title rts-text-anime-style-1">A Team Passionate About <br> Global Financial Access</h2>
                     </div>
-                   <p class="disc mt--30">
-                       MyEwallet International was founded to remove barriers for businesses and individuals
-                       participating in the global economy. Headquartered across the UAE, Hong Kong, and USA,
-                       our fintech experts, engineers, and compliance specialists build the most trusted borderless
-                       payments platform.
-                   </p>
-                   <div class="d-flex justify-content-center mt--30">
-                       <a href="{{ route('about') }}" class="rts-btn btn-primary">Meet Our Team</a>
-                   </div>
+                    <p class="disc mt--30">
+                        MyEwallet International was founded to remove barriers for businesses and individuals
+                        participating in the global economy. Headquartered across the UAE, Hong Kong, and USA,
+                        our fintech experts, engineers, and compliance specialists build the most trusted borderless
+                        payments platform.
+                    </p>
+                    <div class="d-flex justify-content-center mt--30">
+                        <a href="{{ route('about') }}" class="rts-btn btn-primary">Meet Our Team</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -712,12 +735,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/01.webp"
-                                                alt="testimonials">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
-                                                MyEwallet has transformed how we handle international payments for our e-commerce business. The multi-currency support and fast transfers have saved us thousands in fees.
+                                                MyEwallet has transformed how we handle international payments for our
+                                                e-commerce business. The multi-currency support and fast transfers have
+                                                saved us thousands in fees.
                                             </p>
                                             <div class="name-desig">
                                                 <h6 class="title">Sarah Chen</h6>
@@ -729,12 +753,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/02.webp"
-                                                alt="testimonials">
+                                            <img loading="lazy" src="assets/images/testimonials/02.webp" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
-                                                As a freelancer, MyEwallet makes it incredibly easy to receive payments from clients worldwide. The instant currency conversion and low fees are game-changers.
+                                                As a freelancer, MyEwallet makes it incredibly easy to receive payments from
+                                                clients worldwide. The instant currency conversion and low fees are
+                                                game-changers.
                                             </p>
                                             <div class="name-desig">
                                                 <h6 class="title">Marcus Rodriguez</h6>
@@ -746,12 +771,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonials-main-wrapper-two">
                                         <div class="left-thumbnail">
-                                            <img loading="lazy" src="assets/images/testimonials/03.webp"
-                                                alt="testimonials">
+                                            <img loading="lazy" src="assets/images/testimonials/03.webp" alt="testimonials">
                                         </div>
                                         <div class="right-content-testimonials">
                                             <p class="disc">
-                                                MyEwallet's security features give us peace of mind when handling large international transactions. The platform is reliable and the customer support is excellent.
+                                                MyEwallet's security features give us peace of mind when handling large
+                                                international transactions. The platform is reliable and the customer
+                                                support is excellent.
                                             </p>
                                             <div class="name-desig">
                                                 <h6 class="title">Jennifer Park</h6>
@@ -812,7 +838,7 @@
     <!-- appoinment areas end -->
 
     <!-- rts blog area start -->
-<div class="rts-blog-area rts-section-gapBottom pt--40">
+    <div class="rts-blog-area rts-section-gapBottom pt--40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -877,4 +903,3 @@
     </div>
     <!-- rts blog area end -->
 @endsection
-
