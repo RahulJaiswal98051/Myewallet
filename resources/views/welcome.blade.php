@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Dashboard')
+@section('title', 'MyEwallet - Global Payments')
 @section('content')
 
     <div class="banner-swiper-two">

@@ -21735,6 +21735,12 @@ body.with-sticky-item {
 .rts-working-process-1 .inner.four::after {
   content: "04";
 }
+.rts-working-process-1 .inner.five::after {
+  content: "05";
+}
+.rts-working-process-1 .inner.six::after {
+  content: "06";
+}
 .rts-working-process-1 .inner::after {
   position: absolute;
   right: 5px;
@@ -35181,6 +35187,15 @@ header.header-transparent.in-full-screen .action-area .menu-btn {
     padding: 40px 20px;
   }
 }
+@media (max-width: 450px) {
+  .rts-banner-area.investment .banner-one-inner .title {
+    font-size: 30px;
+  }
+  .rts-testimonials-event-conference .testimonial-info-wrapper .testimonial-info-area .single-info {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 450px) {
   .rts-banner-area.investment .banner-one-inner .title {
     font-size: 30px;
